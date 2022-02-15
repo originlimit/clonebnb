@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    text-align: none;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.header__icon {
+    object-fit: contain;
+    height: 4rem;
+    margin-left: 1rem;
+}
+
+.header__center {
+    display: flex;
+    margin: auto;
+}
