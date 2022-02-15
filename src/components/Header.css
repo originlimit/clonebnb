@@ -1,6 +1,11 @@
 .header {
+    height: 4rem;
+    width: 100%;
+    z-index: 99;
     display: flex;
     text-align: none;
+    position: sticky;
+    top: 0;
     background-color: rgba(0, 0, 0, 0.85);
 }
 
@@ -12,5 +17,26 @@
 
 .header__center {
     display: flex;
+    padding: 0rem 1rem;
     margin: auto;
+    background-color: #ffffff;
+    height: 2rem;
+    border-radius: 1rem;
+    align-items: center;
+}
+
+.header__center > input {
+    border: none;
+    width: 9rem;
+    outline-width: 0;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header__right > * {
+    margin-right: .5rem;
 }
