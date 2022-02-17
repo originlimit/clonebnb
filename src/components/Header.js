@@ -14,7 +14,6 @@ const Header = () => {
             <SearchIcon />
         </div>
         <div className='header__right'>
-            <p>Be a host!</p>
             <LanguageIcon />
             <ExpandMore />
             <Avatar />

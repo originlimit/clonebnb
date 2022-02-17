@@ -1,0 +1,4 @@
+.datepicker > button {
+    display: flex;
+    width: 100%;
+}

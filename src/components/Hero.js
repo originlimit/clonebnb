@@ -7,8 +7,8 @@ const Hero = () => {
     <div className='hero'>
         <div className='hero__info'>
             <h1>Get out and experience life!</h1>
-            <h4>Plan a stay at a nice place and witness beauty while staying comfortable</h4>
-            <Button variant='outlined'>Explore Nearby</Button>
+            <h4>Plan a stay at a nice place and witness beauty while staying comfortable.</h4>
+            <Button>Explore Nearby</Button>
         </div>
     </div>
   )
