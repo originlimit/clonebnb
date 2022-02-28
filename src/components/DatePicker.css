@@ -1,4 +1,8 @@
 .datepicker > button {
     display: flex;
     width: 100%;
+    background-color: #ffffff;
+    font-weight: 800;
+    text-transform: inherit;
+    color: #ff7779;
 }

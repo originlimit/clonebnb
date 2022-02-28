@@ -5,7 +5,7 @@ import { Button } from '@mui/material'
 const DatePicker = () => {
   return (
       <div className='datepicker'>
-          <Button>Pick Date</Button>
+          <Button>PICK DATE</Button>
       </div>
   )
 }
