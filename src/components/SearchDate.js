@@ -23,10 +23,10 @@ const SearchDate = () => {
     }
 
     return (
-        <div>
-            <DateRangePicker className='search' ranges={[selectionRange]} onChange={handleSelect} />
-            <h2>Number of guests <PeopleIcon /></h2>
-            <input min={0} defaultValue={2} type='number' />
+        <div className='search'>
+            <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
+            <h4>Number of guests <PeopleIcon /></h4>
+            <input min={0} max={11} defaultValue={2} type='number' />
             <Button>Search CloneBNB</Button>
         </div>
     )

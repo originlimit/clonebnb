@@ -24,3 +24,8 @@
     transform: inherit;
 
 }
+
+.hero__info > button:hover {
+    background-color: #ffffff;
+    color: #ff7779;
+}
