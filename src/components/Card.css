@@ -1,3 +1,11 @@
 .card {
     margin: 1rem;
+    width: 28rem;
+    height: 30rem;
+    background-color: red;
+    display: flex;
+}
+
+.card__img {
+    object-fit: cover;
 }
