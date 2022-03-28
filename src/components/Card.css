@@ -1,9 +1,11 @@
 .card {
     margin: 1rem;
-    width: 28rem;
+    max-width: 28rem;
+    min-width: 10rem;
     height: 40rem;
     background-color: red;
     display: flex;
+    flex-direction: column;
     border-radius: .5rem;
 }
 
