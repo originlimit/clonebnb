@@ -7,9 +7,12 @@ import './Home.css'
 const Home = () => {
   return (
     <div className='home'>
-        <Header />
-        <DatePicker />
-        <Hero />
+      <Header />
+      <DatePicker />
+      <Hero />
+      <div className='home__section'>
+        
+      </div>
     </div>
   )
 }
