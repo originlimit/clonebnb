@@ -1,3 +1,14 @@
+# Temp TO-DO:
+
+- center card info on y-axis
+- assign min width to desc in card info
+- make cards responsive
+- make banner responsive
+- make nav responsive
+- make calendar responsive or scale
+- create footer
+- double check everything is responsive
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
