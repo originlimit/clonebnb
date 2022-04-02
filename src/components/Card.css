@@ -11,13 +11,23 @@
 
 .card__img {
     object-fit: cover;
-    height: 60%;
+    height: 65%;
     width: 100%;
     border-radius: .5rem .5rem 0rem 0rem;
 }
 
 .card__info {
-    margin: 1rem;
     display: flex;
+    height: 35%;
     flex-direction: column;
+    justify-content: center;
+    padding: 1rem .5rem 2rem;
+}
+
+.card__content {
+    padding: .5rem;
+}
+
+.card__price {
+    font-weight: 900;
 }
