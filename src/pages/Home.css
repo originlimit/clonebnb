@@ -1,9 +1,13 @@
-.home {
-    width: 100vw;
-}
 .home__section {
     display: flex;
     overflow-x: scroll;
+    width: fit-content;
+}
+
+.home__container {
+    display: flex;
+    overflow-x: hidden;
+    width: 100%;
     justify-content: center;
 }
 
