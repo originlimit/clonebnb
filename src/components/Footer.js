@@ -10,7 +10,7 @@ const Footer = () => {
             <a className='footer__item'>Events</a>
             <a className='footer__item'>Contact</a>
         </div>
-        <section id='copyright'>No Copyright.</section>
+        <section id='copyright'>AirBNB Clone 2022 - No Copyright.</section>
     </div>
   )
 }
