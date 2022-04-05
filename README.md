@@ -1,13 +1,12 @@
 # Temp TO-DO:
 
-- center card info on y-axis
 - assign min width to desc in card info
 - make cards responsive
 - make banner responsive
 - make nav responsive
 - make calendar responsive or scale
-- create footer
 - double check everything is responsive
+- make search page
 
 # Getting Started with Create React App
 
