@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
+import SearchPage from './pages/SearchPage';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/search' element={<div>h</div>} />
+          <Route path='/search' element={<SearchPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />
