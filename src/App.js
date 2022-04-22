@@ -11,8 +11,8 @@ function App() {
       <Header />
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
           <Route path='/search' element={<SearchPage />} />
+          <Route path='/' element={<Home />} />
         </Routes>
       </BrowserRouter>
       <Footer />
