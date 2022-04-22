@@ -1,5 +1,6 @@
 import { Button } from '@mui/material'
 import React from 'react'
+import SearchResults from '../components/SearchResults'
 import './SearchPage.css'
 
 const SearchPage = () => {
@@ -13,6 +14,7 @@ const SearchPage = () => {
             <Button variant='outlined'>Price</Button>
             <Button variant='outlined'>Rooms and Beds</Button>
             <Button variant='outlined'>More Filters</Button>
+            <SearchResults />
         </div>
     </div>
   )
