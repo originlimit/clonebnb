@@ -1,8 +1,9 @@
 import React from 'react'
+import './SearchResults.css'
 
-const SearchResults = () => {
+const SearchResults = ({img, title, location, desc, star, price, total}) => {
   return (
-    <div>SearchResults</div>
+    <div className='searchResults'>SearchResults</div>
   )
 }
 
