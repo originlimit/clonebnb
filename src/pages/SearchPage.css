@@ -1,0 +1,11 @@
+.searchPage__info {
+    padding: .5rem;
+}
+
+.searchPage__info > * {
+    margin: 1rem;
+}
+
+.searchPage__info > button {
+    border-radius: 1rem;
+}
