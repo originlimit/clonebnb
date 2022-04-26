@@ -1,5 +1,6 @@
 import React from 'react'
 import './SearchResults.css'
+import StarIcon from '@mui/icons-material/Star'
 
 const SearchResults = ({ img, title, location, desc, star, price, total }) => {
   return (
@@ -7,10 +8,14 @@ const SearchResults = ({ img, title, location, desc, star, price, total }) => {
         <div className='searchResults__img'>image</div>
         <div className='searchResults__info'>
             <div className='searchResults__info__top'>
-                title, loc, heart
+                {title} {location}
             </div>
             <div className='searchResults__info__mid'>
-                desc
+                <hr></hr>
+                {desc}
+            </div>
+            <div className='searchResults__info__btm'>
+                {price} <StarIcon /> {star} {total}
             </div>
         </div>
     </div>
