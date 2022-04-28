@@ -9,12 +9,14 @@ const SearchResults = ({ img, title, location, desc, star, price, total }) => {
         <img src={ img } alt='property view' />
         <div className='searchResults__info'>
             <div className='searchResults__infoTop'>
-                { title } { location } <FavoriteBorderRoundedIcon />
+                <div className='searchResults__infoTitle'>{ location } { title }</div>
+                <FavoriteBorderRoundedIcon />
             </div>
             <hr></hr>
                 { desc }
             <div className='searchResults__infoBtm'>
-                { price } <StarRoundedIcon />{ star } { total }
+                <div className='searchResults__stars'><StarRoundedIcon />{ star }</div>
+                <div className='searchResults__prices'>{ price } { total }</div>
             </div>
         </div>
     </div>
