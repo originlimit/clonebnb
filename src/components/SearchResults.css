@@ -1,4 +1,51 @@
 .searchResults {
     width: 60rem;
+    height: 15rem;
     display: flex;
+    border-radius: 1rem;
+    overflow-x: hidden;
+}
+
+.searchResults > img {
+    width: 30%;
+}
+
+.searchResults__info {
+    width: 70%;
+    margin: .75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchResults__infoTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResults__infoTitle {
+    min-width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.searchResults__infoTitle > h3 {
+    font-size: 1.35rem;
+}
+
+.searchResults__infoMid {
+    text-align: left;
+    padding: 1rem 0rem;
+    margin-bottom: auto;
+}
+
+.searchResults__infoBtm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResults__stars {
+    display: flex;
+    align-items: center;
 }

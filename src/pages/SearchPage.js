@@ -14,7 +14,7 @@ const SearchPage = () => {
             <Button variant='outlined'>Price</Button>
             <Button variant='outlined'>Rooms and Beds</Button>
             <Button variant='outlined'>More Filters</Button>
-            <SearchResults title='This is a title' location='60th St. Los Angeles' desc='This is a description about a small apartment in LA' price='$30 per night' star='4.5' total='$120 total' />
+            <SearchResults img='https://sobarnes.com/wp-content/uploads/2018/04/4e4d7f4f-6a4d-46f0-9cbb-33c93f7d48a7-750x500.jpg' title='Modern Apartment' location='29572 60th St. Los Angeles' desc='Small apartment in LA with a nice city view. Has 2 bedrooms, 1 living, 2 bath, 1 kitchen, 2 closet, and a balcony that overlooks downtown.' price='$30 per night' star='4.5' />
         </div>
     </div>
   )
