@@ -21,3 +21,12 @@
     color: #000000;
     border-color: #c0c0c0;
 }
+
+.searchPage__results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0rem;
+    width: 100%;
+}
