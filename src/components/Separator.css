@@ -1,6 +1,7 @@
 .sep {
     border: none;
     background-color: #c0c0c0;
-    width: 95%;
+    width: 100%;
+    max-width: 75rem;
     height: 1px;
 }
