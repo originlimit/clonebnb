@@ -10,12 +10,16 @@
     backdrop-filter: blur(10px);
 }
 
+.header__iconContainer {
+    padding: .6rem;
+    padding-left: 1rem;
+}
+
 .header__icon {
     object-fit: contain;
     margin: auto;
     margin-right: 0;
     height: 2.5rem;
-    margin-left: 1rem;
 }
 
 .header__center {

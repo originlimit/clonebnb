@@ -9,7 +9,7 @@ import { Avatar } from '@mui/material'
 const Header = () => {
   return (
     <div className='header'>
-        <Link to='/'>
+        <Link className='header__iconContainer' to='/'>
             <img className='header__icon' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/512px-Airbnb_Logo_B%C3%A9lo.svg.png?20140813142239' alt='header logo' />
         </Link>
         <div className='header__center'>
