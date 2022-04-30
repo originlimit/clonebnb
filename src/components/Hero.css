@@ -18,14 +18,14 @@
     margin: 1rem;
 }
 
-.hero__info > button {
+.hero__infoLink > button {
     background-color: #ff7779;
     color: #ffffff;
     text-transform: inherit;
     transform: inherit;
 }
 
-.hero__info > button:hover {
+.hero__infoLink > button:hover {
     background-color: #ffffff;
     color: #ff7779;
 }
