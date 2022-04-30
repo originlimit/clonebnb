@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import 'react-date-range/dist/styles.css'
 import 'react-date-range/dist/theme/default.css'
 import './SearchDate.css'
@@ -27,7 +28,10 @@ const SearchDate = () => {
             <DateRangePicker ranges={[selectionRange]} onChange={handleSelect} />
             <h4>Number of guests <PeopleIcon /></h4>
             <input min={0} max={11} defaultValue={2} type='number' />
-            <Button>Search CloneBNB</Button>
+            <Link className='searchLink' to='/search'>
+                <Button>Search CloneBNB</Button>
+            </Link>
+
         </div>
     )
 }
