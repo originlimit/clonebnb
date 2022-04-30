@@ -1,3 +1,6 @@
-hr {
-    background-color: rgba( 0, 0, 0, 0.80);
+.sep {
+    border: none;
+    background-color: #c0c0c0;
+    width: 95%;
+    height: 1px;
 }

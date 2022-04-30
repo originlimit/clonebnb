@@ -5,13 +5,16 @@
     display: flex;
     border-radius: 1rem;
     overflow-x: hidden;
-    box-shadow: 0px 6px 18px -9px rgba( 0, 0, 0, 1);
     cursor: pointer;
 }
 
 .searchResults > img {
     object-fit: cover;
     width: 35%;
+}
+
+.searchResults:hover {
+    box-shadow: 0px 6px 18px -9px rgba( 0, 0, 0, 1)
 }
 
 .searchResults__info {
