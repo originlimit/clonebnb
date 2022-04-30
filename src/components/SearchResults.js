@@ -10,7 +10,7 @@ const SearchResults = ({ img, title, location, desc, star, price }) => {
         <div className='searchResults__info'>
             <div className='searchResults__infoTop'>
                 <div className='searchResults__infoTitle'><h3>{ title }</h3><span>{ location }</span><hr></hr></div>
-                <FavoriteBorderRoundedIcon />
+                <div className='heart'><FavoriteBorderRoundedIcon /></div>
             </div>
             <div className='searchResults__infoMid'>{ desc }</div>
             <div className='searchResults__infoBtm'>
