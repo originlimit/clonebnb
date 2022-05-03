@@ -50,3 +50,14 @@
 .header__right > * {
     margin-right: .5rem;
 }
+
+@media(max-width: 47rem){
+
+    .header__center {
+        display: none;
+    }
+
+    .header__center > input {
+        width: 1rem;
+    }
+}
