@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import SearchIcon from '@mui/icons-material/Search'
 import LanguageIcon from '@mui/icons-material/Language'
 import ExpandMore from '@mui/icons-material/ExpandMore'
-import { Avatar } from '@mui/material'
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 const Header = () => {
   return (
@@ -19,7 +19,7 @@ const Header = () => {
         <div className='header__right'>
             <LanguageIcon />
             <ExpandMore />
-            <Avatar />
+            <AccountCircleIcon className='header__rightSvg' fontSize='large' />
         </div>
     </div>
   )

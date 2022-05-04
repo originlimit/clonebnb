@@ -51,13 +51,27 @@
     margin-right: .5rem;
 }
 
+.header__rightSvg {
+    color:#c0c0c0;
+}
+
 @media(max-width: 47rem){
+
+    .header {
+        justify-content: space-between;
+        height: 3rem;
+    }
+
+    .header__iconContainer {
+        padding: .4rem;
+        padding-left: .5rem;
+    }
+
+    .header__icon {
+        height: 2rem;
+    }
 
     .header__center {
         display: none;
-    }
-
-    .header__center > input {
-        width: 1rem;
     }
 }
