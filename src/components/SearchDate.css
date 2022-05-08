@@ -38,3 +38,11 @@
     background-color: #ffffff;
     color: #ff7779;
 }
+
+@media(max-width: 47rem){
+
+    .search {
+        top: 5.25rem;
+        width: 100%;
+    }
+}

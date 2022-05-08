@@ -32,15 +32,17 @@
 
 @media(max-width: 47rem) {
 
-    .hero__info {
-        padding: 9.5rem 1rem;
-    }
-
     .hero__info > * {
         margin: 1rem .5rem;
+        font-size: 1rem;
+    }
+
+    .hero__infoTitle {
+        font-size: 1.5rem;
     }
 
     .hero__infoLink > button {
         margin: .5rem;
+        height: 1.75rem;
     }
 }
