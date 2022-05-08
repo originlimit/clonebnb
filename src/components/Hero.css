@@ -29,3 +29,18 @@
     background-color: #ffffff;
     color: #ff7779;
 }
+
+@media(max-width: 47rem) {
+
+    .hero__info {
+        padding: 9.5rem 1rem;
+    }
+
+    .hero__info > * {
+        margin: 1rem .5rem;
+    }
+
+    .hero__infoLink > button {
+        margin: .5rem;
+    }
+}
