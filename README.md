@@ -3,12 +3,9 @@ This is an AirBNB clone utilizing ReactJS, React Router, React Hooks, material c
 
 ## Temp TO-DO:
 
-- assign min width to desc in card info
-- make cards responsive
-- make banner responsive
-- make nav responsive
 - make calendar responsive or scale
 - double check everything is responsive
+- make the search page responsive
 
 # Getting Started with Create React App
 
