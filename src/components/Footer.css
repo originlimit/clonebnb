@@ -21,3 +21,18 @@
 #copyright {
     font-weight: bold;
 }
+
+@media(max-width: 47rem){
+
+    .footer__container {
+        font-size: 1rem;
+    }
+
+    .footer__item {
+        margin: .5rem;
+    }
+
+    #copyright {
+        font-size: .90rem;
+    }
+}
