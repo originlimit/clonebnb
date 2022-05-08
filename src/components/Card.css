@@ -39,3 +39,30 @@
 .card__price {
     font-weight: 900;
 }
+
+@media(max-width: 47rem){
+
+    .card {
+        margin: 1rem 1rem 1.5rem;
+        width: 20rem;
+        min-width: 18rem;
+        height: 35rem;
+    }
+
+    .card__img {
+        height: 60%;
+    }
+    
+    .card__info {
+        height: 40%;
+    }
+
+    .card__content {
+        font-size: 1rem;
+        padding: .25rem;
+    }
+
+    .card__title {
+        font-size: 1.25rem;
+    }
+}
