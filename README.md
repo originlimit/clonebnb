@@ -4,8 +4,6 @@ This is an AirBNB clone utilizing ReactJS, React Router, React Hooks, material c
 ## Temp TO-DO:
 
 - make calendar responsive or scale
-- double check everything is responsive
-- make the search page responsive
 
 # Getting Started with Create React App
 
