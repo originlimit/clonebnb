@@ -66,3 +66,19 @@
 .searchResults__stars > :first-child {
     color: #ff7779;
 }
+
+@media(max-width: 47rem){
+
+    .searchResults {
+        margin: 1rem .5rem;
+        flex-direction: column;
+    }
+
+    .searchResults > img {
+        display: none;
+    }
+
+    .searchResults__info {
+        width: 90%;
+    }
+}

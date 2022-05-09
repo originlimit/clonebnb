@@ -30,3 +30,10 @@
     margin: 1rem 0rem;
     width: 100%;
 }
+
+@media(max-width: 47rem){
+
+    .searchPage__results {
+        margin: .5rem 0rem;
+    }
+}
