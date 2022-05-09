@@ -71,14 +71,34 @@
 
     .searchResults {
         margin: 1rem .5rem;
+        height: 20rem;
+    }
+
+    .searchResults__info {
+        max-height: 100%;
+        width: 100%;
+        overflow: hidden;
+        font-size: 1rem;
         flex-direction: column;
+    }
+
+    .searchResults__infoTitle {
+        font-size: 1rem;
+    }
+
+    .searchResults__infoTitle > h3 {
+        font-size: 1.25rem;
     }
 
     .searchResults > img {
         display: none;
     }
 
-    .searchResults__info {
-        width: 90%;
+    .searchResults__prices > * {
+        font-size: 1.15rem;
+    }
+
+    .searchResults__stars > :nth-child(2) {
+        font-size: 1.15rem;
     }
 }
