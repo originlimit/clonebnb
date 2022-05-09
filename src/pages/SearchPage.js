@@ -8,7 +8,7 @@ const SearchPage = () => {
   return (
     <div className='searchPage'>
         <div className='searchPage__info'>
-            <p>60 stays | august 10 to august 23 | 2 guest</p>
+            <p className='searchPage__infoData'>60 stays | august 10 to august 23 | 2 guest</p>
             <h2>Stays Nearby</h2>
             <Button variant='outlined'>Cancellation Flexibility</Button>
             <Button variant='outlined'>Type of Place</Button>

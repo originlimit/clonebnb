@@ -36,4 +36,18 @@
     .searchPage__results {
         margin: .5rem 0rem;
     }
+
+    .searchPage__infoData {
+        margin: .5rem;
+    }
+
+    .searchPage__info > h2 {
+        font-size: 1.5rem;
+        margin: .5rem;
+    }
+
+    .searchPage__info > button {
+        padding: .15rem .5rem;
+        margin: .25rem;
+    }
 }
