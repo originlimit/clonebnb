@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route path='/search' element={<SearchPage />} />
-          <Route path='/' element={<Home />} />
+          <Route path='/clonebnb/' element={<Home />} />
         </Routes>
         <Footer />
       </div>
