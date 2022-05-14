@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/clonebnb/static/css/main.ea2bb459.css",
-    "main.js": "/clonebnb/static/js/main.487bdcb4.js",
+    "main.js": "/clonebnb/static/js/main.dce24d60.js",
     "static/media/Nunito-Regular.ttf": "/clonebnb/static/media/Nunito-Regular.e4eb7682710458841b10.ttf",
     "index.html": "/clonebnb/index.html",
     "main.ea2bb459.css.map": "/clonebnb/static/css/main.ea2bb459.css.map",
-    "main.487bdcb4.js.map": "/clonebnb/static/js/main.487bdcb4.js.map"
+    "main.dce24d60.js.map": "/clonebnb/static/js/main.dce24d60.js.map"
   },
   "entrypoints": [
     "static/css/main.ea2bb459.css",
-    "static/js/main.487bdcb4.js"
+    "static/js/main.dce24d60.js"
   ]
 }
