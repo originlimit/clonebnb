@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/clonebnb/static/css/main.ea2bb459.css",
+    "main.js": "/clonebnb/static/js/main.610cfb5c.js",
+    "static/media/Nunito-Regular.ttf": "/clonebnb/static/media/Nunito-Regular.e4eb7682710458841b10.ttf",
+    "index.html": "/clonebnb/index.html",
+    "main.ea2bb459.css.map": "/clonebnb/static/css/main.ea2bb459.css.map",
+    "main.610cfb5c.js.map": "/clonebnb/static/js/main.610cfb5c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea2bb459.css",
+    "static/js/main.610cfb5c.js"
+  ]
+}
